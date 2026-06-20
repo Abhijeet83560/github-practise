@@ -1,0 +1,11 @@
+name: hello
+
+on:
+  workflow_dispatch:
+
+  runs:
+    hello-dosto:
+    working-on: ubantu-latest
+    steps:
+      -name: say hello to evryone
+       run: echo "hello dosto "
