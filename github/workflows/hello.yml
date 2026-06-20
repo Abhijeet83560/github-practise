@@ -7,5 +7,5 @@ on:
     hello-dosto:
       runs-on: ubantu-latest
       steps:
-       -name: say hello to evryone
-        run: echo "hello dosto "
+        -name: say hello to evryone
+         run: echo "hello dosto "
