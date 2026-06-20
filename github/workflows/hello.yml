@@ -3,7 +3,7 @@ name: hello
 on:
   workflow_dispatch:
 
-  runs:
+  jobs:
     hello-dosto:
     working-on: ubantu-latest
     steps:
